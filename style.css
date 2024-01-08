@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+    font-size: 100%;
+}
+
+header{
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+header .p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+header .a{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+header .v{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+header .r{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+header .w{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 1rem;
+    color: #333;
+    padding: 0.75rem;
+    cursor: pointer;
+    display: none;
+}
+
+header .search-form{
+    border: 1px solid #D8E0E2;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+header .search-form input{
+    width: 15rem;
+}
+
+.user{
+    height: 2.5rem;
+}
+
+button{
+    background-color: #000000;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #636363;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url('images/BG.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    padding: 2rem 10rem;
+}
+
+.home .content h3{
+    font-family: Sentient;
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+
+.home .content p{
+    font-size: 1.2rem;
+    padding: 1.2rem 0;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.all-crisps{
+    background-color: #000000;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #FFF7E3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+ .info-footer{
+    min-width: 50%;
+}
+
+.info-footer li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.footer .info-footer a{
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.footer .info-footer a:nth-child(n+2){
+    padding-left: 30px;
+}
+
+.info-footer li:nth-child(3){
+    font-weight: 700;
+    font-size: 1.25rem;
+} 
+
+.image-footer{
+    margin: 5rem 0;
+}
+
+
+.feature{
+    padding-top: 150px;
+    display: flex;
+}
+
+
+.right-feature{
+    flex: 1; 
+    flex-basis: 50%; 
+}
+
+.feature .left-feature h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.9rem;
+    padding-bottom: 5rem;
+    font-family: Sentient;
+}
+
+.feature .right-feature h3{
+    font-size: 1.4rem;
+    line-height: 26px;
+    font-weight: 700;
+    font-family: Sentient;
+}
+
+.right-feature .details a{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 1rem;
+    line-height: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.relative{
+    position: relative;
+}
+
+.feature{
+    min-height: 905px;
+}
+
+.image-feature{
+    position: relative;
+}
+
+.image-feature img:nth-child(1){
+    position: absolute;
+    top: 90px;
+}
+
+.image-feature img:nth-child(2){
+    position: absolute;
+    top: 90px;
+
+}
+
+.image-feature img:nth-child(3){
+    position: absolute;
+    top: 208px;
+}
+
+.image-feature img:nth-child(4){
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.detail2{
+    position: absolute;
+    top: 300px;
+    right: 0;
+}
+
+.feature .right-feature{
+    padding-left: 5.5rem;
+    padding-top: 25rem;
+}
+
+.products{
+    padding-top: 150px;
+}
+
+.products .tittle h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.9rem;
+    font-family: Sentient;
+}
+
+.products .tittle{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem 1rem;
+    min-height: 1000px;
+}
+
+.products .box-container .box{
+    flex: 1 1 22rem;
+}
+
+.products .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow: hidden;
+    height: 420px;
+}
+
+.products .box-container .box .image img:nth-child(1){
+    width: 370px;
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.products .box-container .box .image img:nth-child(2){
+    width: 370px;
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.products .box-container .box .image img:nth-child(3){
+    height: 330px;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.products .box-container .box .image i{
+    font-size: 30px;
+    position: absolute;
+    top: 400px;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.products .box-container .box .content h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.videos{
+    margin-top: 150px;
+}
+
+.main-videos{
+    display: flex;
+}
+
+.left-videos{
+    width: 100%;
+    margin-right: 1%;
+
+}
+
+.right-videos{
+    width: 100%;
+    margin-top: 19%;
+    margin-left: 1%;
+}
+
+.image-left img{
+    width: 100%;
+    object-fit: cover; 
+}
+
+.image-right img{
+    width: 100%;
+    object-fit: cover; 
+}
+
+.videos .tittle{
+    position: relative;
+    left: 50%;
+    top: 55px;
+}
+
+.videos .tittle h2{
+    font-family: Sentient;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+}
+
+.videos .right-videos .content-right{
+    padding-top: 22px;
+}
+
+.videos .text h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.videos .play{
+    display: flex;
+}
+
+.play i{
+    padding: 5px 10px;
+}
+
+.videos .play p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.videos .left-videos .content-left{
+    padding-top: 22px;
+}
+
+.testimonial{
+    background-color: #80E2FF;
+    margin-top: 200px;
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.item .testimonial-left h2{
+    font-family: Sentient;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.item .testimonial-left .testimonial-left-description p{
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.info .testimonial-left-name p:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.info .testimonial-left-name p:nth-child(2){
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.item .testimonial-right img{
+    width: 470px;
+    margin: 40px 0;
+}
+
+.testimonial-left {
+    display: flex;
+    align-items: center;
+    flex: 1 1 23rem;
+
+}
+
+.testimonial-right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex: 1 1 23rem;
+}
+
+hr{
+    border: 1px solid #33D1FF; 
+    margin: 20px 0;
+}
+
+.info{
+    display: flex;
+}
+
+.pavigation{
+    display: flex;
+    margin-left: auto;
+
+}
+
+.pavigation button{
+    border: 1px solid #000000;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.CTA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('images/image 20.png');
+    background-color: #FFD36A;
+    min-height: 468px;
+}
+
+.content-CTA{
+    width: 28rem;
+}
+
+.content-CTA >*{
+    margin: 0.8rem;
+}
+
+.CTA h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.9rem;
+    font-family: Sentient;
+}
+
+.CTA p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+}
+
+@media screen and (max-width:991px) {
+    html{
+        font-size: 80%; 
+       }
+
+    header{
+    padding: 2rem 4%;
+    }
+
+    .testimonial-right {
+        justify-content: center;
+    }
+
+    .item{
+        flex-direction: column-reverse;
+    }
+
+    .info{
+        display: block;
+    }
+
+    .home{
+        flex-direction: column-reverse;
+        background-image: url('images/BG-phone.png');
+        background-size: cover;
+    }
+
+    .home .content{
+        padding: 2rem 7rem;
+    }
+
+    
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    .feature{
+        flex-wrap: wrap;
+    }
+
+    .left-feature{
+        height: 500px;
+    }
+
+    .detail2{
+        top: 200px;
+        width: 25%;
+    }
+
+    .feature .right-feature{
+        padding-left: 0;
+        padding-top: 20rem;
+        margin-bottom: 8rem;
+    }
+
+    .products{
+        padding-top: 0px;
+    }
+
+    .CTA{
+        min-height: 342px;
+    }
+
+    .content-CTA{
+        width: 35rem;
+    }
+
+    .image-footer{
+        margin-top: 5rem;
+    }
+
+    .footer .info-footer{
+        margin-right: 40%;
+    }
+    
+    .footer .info-footer li:nth-child(2) a{
+        display: block;
+    }
+
+    .footer .info-footer a:nth-child(n+2){
+        padding-left: 0;
+        padding-top: .5rem;
+    }
+   
+}
+
+@media screen and (max-width:769px) {
+
+    header .fa-bars{
+        display: block;
+        position: absolute;
+        right: 1.2rem;
+    }
+
+    
+
+    header .p{
+        text-decoration: none;
+        color: #333;
+        position: absolute;
+        padding: 1rem;
+        width: 100%;
+        top: 100px;
+        left: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
+        background-color: #e5e5e5;
+      }
+
+      header .a{
+        text-decoration: none;
+        color: #333;
+        position: absolute;
+        padding: 1rem;
+        width: 100%;
+        top: 147px;
+        left: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
+        background-color: #e5e5e5;
+      }
+
+      header .v{
+        text-decoration: none;
+        color: #333;
+        position: absolute;
+        padding: 1rem;
+        width: 100%;
+        top: 194px;
+        left: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
+        background-color: #e5e5e5;
+      }
+
+      header .r{
+        text-decoration: none;
+        color: #333;
+        position: absolute;
+        padding: 1rem;
+        width: 100%;
+        top: 241px;
+        left: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
+        background-color: #e5e5e5;
+      }
+
+      header .w{
+        text-decoration: none;
+        color: #333;
+        position: absolute;
+        padding: 1rem;
+        width: 100%;
+        top: 288px;
+        left: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
+        background-color: #e5e5e5;
+      }
+
+      header #toggler:checked ~ a{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      }
+
+      .search-form{
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
+      }
+
+      header #toggler:checked ~ .search-form{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      }
+
+      .sign-up{
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
+      }
+
+      header #toggler:checked ~ .sign-up{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      }
+
+      .search-form{
+        width: 100%;
+        position: absolute;
+        top: 335px;
+        right: 0;
+        left: 0;
+        background: #fff;
+      }
+
+      .user{
+        display: none;
+      }
+
+      .sign-up{
+        width: 100%;
+        position: absolute;
+        top: 373px;
+        right: 0;
+        left: 0;
+      }
+    
+      .home .content{
+        padding: 2rem 2rem;
+      }
+
+      .products .box-container .box .content{
+        padding-left: 5rem;
+    }
+
+    .videos .tittle{
+        position: relative;
+        left: 20%;
+        top: 0;
+    }
+    
+    
+}
